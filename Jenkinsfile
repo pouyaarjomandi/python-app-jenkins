@@ -22,7 +22,7 @@ pipeline {
                 sh '''
                     python3 -m venv venv
                     ./venv/bin/pip install -r requirements.txt
-                    ./venv/bin/pytest --tb=short
+                    ./venv/bin/pytest --tb=short -v
                 '''
             }
         }
