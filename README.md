@@ -105,4 +105,10 @@ pouyaaj/python-app-jenkins
 
 ## Companion Project
 
-This project can be used with the `jenkins-docker` project, which provides a local Dockerized Jenkins environment with Docker socket access.
+This project can be used with the companion Jenkins environment:
+
+```text
+https://github.com/pouyaarjomandi/jenkins-docker
+```
+
+The `jenkins-docker` project provides a local Dockerized Jenkins environment with Docker socket access for running this CI/CD pipeline.
