@@ -24,3 +24,8 @@ def test_get_item():
     assert response.status_code == 200
     assert response.json()["item_id"] == 1
     assert response.json()["name"] == "Item 1"
+    
+    
+def test_get_item_invalid_id():
+    response = client.get("/items/abc")
+    assert response.status_code == 422

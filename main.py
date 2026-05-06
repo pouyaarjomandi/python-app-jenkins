@@ -12,7 +12,7 @@ def root():
     return {
         "message": "Hello from Python!",
         "env": APP_ENV,
-        "version": APP_VERSION
+        "version": APP_VERSION,
     }
 
 
