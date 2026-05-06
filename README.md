@@ -99,16 +99,12 @@ dockerhub-credentials
 
 ## Docker Hub
 
-```text
-pouyaaj/python-app-jenkins
-```
+[pouyaaj/python-app-jenkins](https://hub.docker.com/r/pouyaaj/python-app-jenkins)
 
 ## Companion Project
 
 This project can be used with the companion Jenkins environment:
 
-```text
-https://github.com/pouyaarjomandi/jenkins-docker
-```
+[jenkins-docker](https://github.com/pouyaarjomandi/jenkins-docker)
 
 The `jenkins-docker` project provides a local Dockerized Jenkins environment with Docker socket access for running this CI/CD pipeline.
